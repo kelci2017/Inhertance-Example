@@ -1,0 +1,6 @@
+/Users/huangk/RiderProjects/InheritanceExample/InheritanceExample/bin/Debug/InheritanceExample.exe
+/Users/huangk/RiderProjects/InheritanceExample/InheritanceExample/bin/Debug/InheritanceExample.pdb
+/Users/huangk/RiderProjects/InheritanceExample/InheritanceExample/obj/Debug/InheritanceExample.csprojAssemblyReference.cache
+/Users/huangk/RiderProjects/InheritanceExample/InheritanceExample/obj/Debug/InheritanceExample.csproj.CoreCompileInputs.cache
+/Users/huangk/RiderProjects/InheritanceExample/InheritanceExample/obj/Debug/InheritanceExample.exe
+/Users/huangk/RiderProjects/InheritanceExample/InheritanceExample/obj/Debug/InheritanceExample.pdb
