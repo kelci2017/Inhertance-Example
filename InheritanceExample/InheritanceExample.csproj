@@ -42,6 +42,7 @@
     <Compile Include="Base\IBird.cs" />
     <Compile Include="Base\ICrawl.cs" />
     <Compile Include="Base\IPet.cs" />
+    <Compile Include="Base\Toy.cs" />
     <Compile Include="Bird\Goose.cs" />
     <Compile Include="Bird\Sparrow.cs" />
     <Compile Include="Crawl\Crocodile.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="Pet\Puppy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Toy\BabyCube.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

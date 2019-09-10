@@ -2,6 +2,7 @@
 using InheritanceExample.Bird;
 using InheritanceExample.Crawl;
 using InheritanceExample.Pet;
+using InheritanceExample.Toy;
 
 namespace InheritanceExample
 {
@@ -9,17 +10,17 @@ namespace InheritanceExample
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("***************************  Toy  ***************************************");
+            
+            var babyCube = new BabyCube(10, "VTech");
+            babyCube.Describe();
+            babyCube.SetLevel(1);
+            
             Console.WriteLine("***************************  Birds  ***************************************");
             
-            //Birds (show difference with base and without base in the Eat method)
+            //Birds (the parent constructor was executed first before the child constructor)
             var goose = new Goose(true, 2, "seeds", "gray");
-            goose.Eat();
 
-            Console.WriteLine("---------------------------------");
-            
-            var sparrow = new Sparrow(false, 2, "insects", "brown");
-            sparrow.Eat();
-            
             Console.WriteLine("***************************  Pets  ***************************************");
             
             //Pets(child can have its own methods Bark or Climb)

@@ -4,7 +4,8 @@ namespace InheritanceExample.Crawl
 {
     public class Tortoise : Turtle
     {
-        public Tortoise(bool vegetarian, int legs, string food, string color) : base(vegetarian, legs, food, color)
+        public Tortoise(bool vegetarian, int legs, string food, string color) 
+            : base(vegetarian, legs, food, color)
         {
         }
         
